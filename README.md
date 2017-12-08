@@ -1,2 +1,2 @@
 # Node Authentication
-A complete user resgistering, login and logging out system.
+A complete user registering, loging in and logging out system.
