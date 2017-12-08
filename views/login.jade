@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	.container
+		h1 Log In
+		p Please Log In to go to the Home Page.
+		form(method='post', action='/users/login',enctype='urlencoded/form-data')
+			.form-group
+				label Username
+				input.form-control(name='username', type='text', placeholder='Enter Username')
+			.form-group
+				label Password
+				input.form-control(name='password', type='password', placeholder='Enter password')
+			input.btn.btn-default(name='submit', type='submit', value='Log in')

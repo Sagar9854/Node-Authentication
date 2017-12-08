@@ -1,0 +1,44 @@
+body {
+	padding-top: 50px;
+	font-family: arial;
+
+}
+
+ul.success li, ul.list li, ul.error li{
+	margin: 20px 0 20px 0;
+	padding: 15px;
+	border:1px solid transparent;
+	border-radius: 5px;
+	list-style: none;
+}
+
+ul.success li{
+	color: #3c763d;
+	background: #dff0d8;
+	border-color: #d6e9c6;
+}
+
+ul.info li{
+	color: #31263d;
+	background: #dff1e8;
+	border-color: #d6eff6;
+}
+
+ul.error li{
+	color: #31763d;
+	background: #df11d8;
+	border-color: #d6ffc6;
+}
+
+.jumbotron{
+	background: url(../images/img2.jpg) no-repeat;
+}
+
+footer {
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin-top: 30px;
+	background-color: #efefef;
+	text-align: center;
+}
